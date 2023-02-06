@@ -4,7 +4,7 @@ from re import M
 from struct import pack
 from tkinter import Y
 
-z
+
 while True:
     ikood=input("Sisesta isikukood: ")
     if len(ikood)!=11:
