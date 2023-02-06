@@ -21,8 +21,9 @@ while True:
             y=(ik_list[1]+ik_list[2])
             m=(ik_list[3]+ik_list[4])
             d=(ik_list[5]+ik_list[6])
-            if (m<1 or m>13) and (d<1 or d>31) and (int(d)<1 or int(d)<31):
+            if (int(m)<1 or int(m)>13) and (int(d)<1 or int(d)>31):
                 print("Sünnipäev ei saa luua")
+
             else:
                 if sl==1 or sl==2:
                     yy="18"
